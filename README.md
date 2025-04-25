@@ -1,50 +1,19 @@
-# Welcome to your Expo app 👋
+# Silvia Challenge Dashboard Frontend
+이 프론트엔드 대시보드 애플리케이션은 백엔드와 GraphQL로 연동하여 실비아 앱의 '챙김 -> 두뇌훈련' 탭의 컨텐츠를 조회하는 기능을 제공합니다.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## 프로젝트 실행 전 준비
+프로젝트 실행 전, Silvia Challenge Dashboard Backend가 실행 중이어야 합니다.
 
-## Get started
+.env.example을 참고하여 `.env` 파일에 백엔드 API 주소를 기입한 후 실행하여야 합니다.
 
-1. Install dependencies
-
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
+## 프로젝트 실행 방법
 ```bash
-npm run reset-project
+# Git Clone
+git clone https://github.com/pcy06/silvia-challenge-frontend.git
+
+# 패키지 설치
+cd silvia-challenge-frontend && yarn install
+
+# Expo 개발 웹 서버 실행
+yarn expo start --web
 ```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
