@@ -27,9 +27,7 @@ export default function MainLayout() {
       <Drawer.Screen
         name="index"
         options={{
-          title: "홈",
-          drawerLabel: "홈",
-          drawerIcon: () => <Home color="$color" />,
+          drawerItemStyle: { height: 0 }
         }}
       />
       <Drawer.Screen

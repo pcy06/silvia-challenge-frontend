@@ -1,19 +1,5 @@
-import { H1, Stack, styled } from 'tamagui';
+import { Redirect } from 'expo-router';
 
-const ContentStack = styled(Stack, {
-  gap: 16,
-  padding: 16,
-  width: '100%',
-  maxWidth: 1000,
-  alignSelf: 'center',
-});
-
-export default function ContentsPage() {  
-  return (
-    <ContentStack>
-      <H1>홈</H1>
-      
-     
-    </ContentStack>
-  );
+export default function Index() {
+  return <Redirect href="/contents" />;
 }
